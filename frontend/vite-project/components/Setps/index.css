@@ -1,0 +1,32 @@
+.booking-steps {
+  text-align: center;
+  padding: 20px;
+}
+
+.stepsmini {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  justify-items: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.step {
+  text-align: center;
+}
+
+.step img {
+  width: 100px;
+  height: auto;
+}
+
+.step h2 {
+  font-size: 1.5em;
+  margin: 10px 0;
+}
+
+.step p {
+  font-size: 1em;
+  color: #555;
+}

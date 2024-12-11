@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+}
+
+.contactmaindiv {
+  background-color: #000000;
+  background-size: cover;
+  height: 400px;
+  padding: 20px;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.upperpart {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  gap: 2rem;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+  background-color: #313331;
+  padding: 10px;
+}
+
+.email-input {
+  display: flex;
+}
+
+.contactinput {
+  height: 39px;
+  width: 200px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.contactbutton {
+  height: 44px;
+  width: 50px;
+  background-color: #ea3c12;
+  border: none;
+  color: #ffffff;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.book-service-button {
+  background-color: #ea3c12;
+  color: #ffffff;
+  height: 50px;
+  width: 130px;
+  border: none;
+  border-radius: 30px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.separator {
+  border: none;
+  height: 1px;
+  background-color: #e5e5e5;
+  margin: 2rem 0;
+  width: 1300px;
+  opacity: 0.8;
+  border-radius: 1px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.logo-container img {
+  width: 50px;
+  height: auto;
+  margin-left: 70px;
+}
+
+.social-icons {
+  display: flex;
+  gap: 1rem;
+}
+.social-icons {
+  margin-right: 70px;
+}

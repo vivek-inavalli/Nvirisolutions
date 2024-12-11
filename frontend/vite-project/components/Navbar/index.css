@@ -1,0 +1,45 @@
+.navcontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 30px;
+}
+.icon {
+  height: 40px;
+  width: 136px;
+}
+.navbutton1 {
+  height: 3em;
+  width: 10em;
+  border-width: 0px;
+  background-color: #ffffff;
+  color: black;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  font-weight: bold;
+}
+.navbutton1:hover {
+  background-color: #ea3c12;
+  color: #ffffff;
+}
+.navbutton2:hover {
+  background-color: #ffffff;
+  color: black;
+}
+
+.navbutton2 {
+  height: 43px;
+  width: 102px;
+  border-width: 0px;
+  background-color: #ea3c12;
+  color: white;
+  border-radius: 21.5px;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
+}
+.buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 25px;
+}
